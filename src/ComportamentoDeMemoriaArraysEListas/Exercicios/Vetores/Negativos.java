@@ -10,13 +10,13 @@ public class Negativos {
         int[] vetor = new int[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.print("Digite o " + (i + 1) + "º valor: ");
+            System.out.print(STR."Digite o \{i + 1}º valor: ");
             vetor[i] = scanner.nextInt();
         }
         System.out.println("\nNÚMEROS NEGATIVOS");
-        for (int i = 0; i < vetor.length; i++) {
-            if (vetor[i] < 0) {
-                System.out.println(vetor[i]);
+        for (int j : vetor) {
+            if (j < 0) {
+                System.out.println(j);
             }
         }
     }
