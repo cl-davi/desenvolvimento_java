@@ -13,7 +13,7 @@ public class Negativos {
             System.out.print("Digite o " + (i + 1) + "º valor: ");
             vetor[i] = scanner.nextInt();
         }
-        System.out.println("\NNÚMEROS NEGATIVOS");
+        System.out.println("\nNÚMEROS NEGATIVOS");
         for (int i = 0; i < vetor.length; i++) {
             if (vetor[i] < 0) {
                 System.out.println(vetor[i]);
