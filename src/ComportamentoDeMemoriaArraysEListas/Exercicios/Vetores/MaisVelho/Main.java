@@ -31,5 +31,7 @@ public class Main {
             }
         }
         System.out.println(STR."\nPESSOA MAIS VELHA: \{vetor[posicaoMaior].getNome()}");
+
+        scanner.close();
     }
 }
