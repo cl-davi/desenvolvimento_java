@@ -53,5 +53,7 @@ public class Main {
         System.out.println(STR."MENOR ALTURA: \{menor}");
         System.out.printf("MÉDIA DAS ALTURAS DAS MULHERES: %.2f", media);
         System.out.println(STR."\nNÚMERO DE HOMENS: \{contadorH}");
+
+        scanner.close();
     }
 }
