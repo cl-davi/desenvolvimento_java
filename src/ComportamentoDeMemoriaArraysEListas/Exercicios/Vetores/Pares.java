@@ -23,5 +23,7 @@ public class Pares {
             }
         }
         System.out.println(STR."\n\nQUANTIDADE DE PARES: \{contador}");
+
+        scanner.close();
     }
 }
