@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario;
 
         List<Funcionario> lista = new ArrayList<>();
 
