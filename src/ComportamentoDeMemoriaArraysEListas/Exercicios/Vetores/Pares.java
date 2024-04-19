@@ -10,7 +10,7 @@ public class Pares {
         int[] vetor = new int[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.print(STR."Digite o \{i + 1}º valor: ");
+            System.out.print("Digite o " + (i + 1) + "º valor: ");
             vetor[i] = scanner.nextInt();
         }
 
@@ -19,10 +19,10 @@ public class Pares {
         for (int i : vetor) {
             if (i % 2 == 0) {
                 contador++;
-                System.out.printf(STR."\{i} ");
+                System.out.printf(i + " ");
             }
         }
-        System.out.println(STR."\n\nQUANTIDADE DE PARES: \{contador}");
+        System.out.println("\n\nQUANTIDADE DE PARES: " + contador);
 
         scanner.close();
     }

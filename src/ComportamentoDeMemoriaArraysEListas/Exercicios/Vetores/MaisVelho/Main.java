@@ -11,7 +11,7 @@ public class Main {
         Pessoa[] vetor = new Pessoa[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println(STR."\nDigite os dados da \{i + 1}º pessoa: ");
+            System.out.println("\nDigite os dados da " + (i + 1) + "º pessoa: ");
             System.out.print("Nome: ");
             scanner.nextLine();
             String nome = scanner.next();
@@ -30,7 +30,7 @@ public class Main {
                 posicaoMaior = i;
             }
         }
-        System.out.println(STR."\nPESSOA MAIS VELHA: \{vetor[posicaoMaior].getNome()}");
+        System.out.println("\nPESSOA MAIS VELHA: "+ vetor[posicaoMaior].getNome());
 
         scanner.close();
     }

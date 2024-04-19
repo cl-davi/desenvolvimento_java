@@ -12,7 +12,7 @@ public class MaiorValor {
         double[] vetor = new double[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.print(STR."Digite o \{i + 1}º valor: ");
+            System.out.print("Digite o " + (i + 1) + "º valor: ");
             vetor[i] = scanner.nextDouble();
         }
         double maior = vetor[0];
@@ -23,8 +23,8 @@ public class MaiorValor {
                 posicaoMaior = i;
             }
         }
-        System.out.println(STR."\nMAIOR VALOR: \{maior}");
-        System.out.println(STR."POSIÇÃO DO MAIOR VALOR: \{posicaoMaior}");
+        System.out.println("\nMAIOR VALOR: " + maior);
+        System.out.println("POSIÇÃO DO MAIOR VALOR: " + posicaoMaior);
 
         scanner.close();
     }

@@ -12,13 +12,13 @@ public class ValoresVetor {
         double[] vetor = new double[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.print(STR."Digite o \{i + 1}º valor: ");
+            System.out.print("Digite o " + (i + 1) + "º valor: ");
             vetor[i] = scanner.nextDouble();
         }
         System.out.print("\nVALORES: ");
 
         for (double v : vetor) {
-            System.out.printf(STR."\{v} ");
+            System.out.printf(v + " ");
         }
         double soma = 0;
 

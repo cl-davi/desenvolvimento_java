@@ -12,12 +12,12 @@ public class SomaVetores {
         int[] vetorC = new int[vetorB.length];
 
         for (int i = 0; i < vetorA.length; i++) {
-            System.out.print(STR."Digite o \{i + 1}º valor do vetor A: ");
+            System.out.print("Digite o " + (i + 1) + "º valor do vetor A: ");
             vetorA[i] = scanner.nextInt();
         }
         System.out.println();
         for (int i = 0; i < vetorB.length; i++) {
-            System.out.print(STR."Digite o \{i + 1}º valor do vetor B: ");
+            System.out.print("Digite o " + (i + 1) + "º valor do vetor B: ");
             vetorB[i] = scanner.nextInt();
         }
         System.out.println("\nVETOR RESULTANTE:");

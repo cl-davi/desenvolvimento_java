@@ -10,7 +10,7 @@ public class MediaPares {
         int[] vetor = new int[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.print(STR."Digite o \{i + 1}º valor: ");
+            System.out.print("Digite o " + (i + 1) + "º valor: ");
             vetor[i] = scanner.nextInt();
         }
 
@@ -29,7 +29,7 @@ public class MediaPares {
             System.out.println("NÃO HÁ VALORES PARES");
         } else {
             media = soma / numPares;
-            System.out.println(STR."MÉDIA DOS PARES: \{media}");
+            System.out.println("MÉDIA DOS PARES: " + media);
         }
         scanner.close();
     }

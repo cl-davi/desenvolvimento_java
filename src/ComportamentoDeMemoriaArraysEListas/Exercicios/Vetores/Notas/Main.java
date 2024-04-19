@@ -13,7 +13,7 @@ public class Main {
         Aluno[] vetor = new Aluno[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println(STR."\nDigite os dados do \{i + 1}º aluno:");
+            System.out.println("\nDigite os dados do " + (i + 1) + "º aluno:");
             System.out.print("Nome: ");
             scanner.nextLine();
             String nome = scanner.nextLine();

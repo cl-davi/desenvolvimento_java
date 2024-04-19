@@ -29,6 +29,6 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return STR."ID: \{getId()}, Nome: \{getNome()}, Salário: \{getSalario()}";
+        return "ID: " + getId() + ", Nome: " +getNome() + ", Salário: " + getSalario();
     }
 }

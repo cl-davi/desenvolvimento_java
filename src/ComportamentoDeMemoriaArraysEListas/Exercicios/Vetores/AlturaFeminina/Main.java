@@ -13,7 +13,7 @@ public class Main {
         Pessoa[] vetor = new Pessoa[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println(STR."Dados da \{i + 1}º pessoa:");
+            System.out.println("Dados da " + (i + 1) + "º pessoa:");
             System.out.print("Altura: ");
             double atura = scanner.nextDouble();
 
@@ -49,10 +49,10 @@ public class Main {
         }
         media = soma / contadorM;
 
-        System.out.println(STR."\nMAIOR ALTURA: \{maior}");
-        System.out.println(STR."MENOR ALTURA: \{menor}");
+        System.out.println("\nMAIOR ALTURA: " + maior);
+        System.out.println("MENOR ALTURA: " + menor);
         System.out.printf("MÉDIA DAS ALTURAS DAS MULHERES: %.2f", media);
-        System.out.println(STR."\nNÚMERO DE HOMENS: \{contadorH}");
+        System.out.println("\nNÚMERO DE HOMENS: " + contadorH);
 
         scanner.close();
     }

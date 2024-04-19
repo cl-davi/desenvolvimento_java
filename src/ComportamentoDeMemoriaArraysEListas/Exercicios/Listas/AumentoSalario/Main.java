@@ -17,7 +17,7 @@ public class Main {
         int qtdFunc = scanner.nextInt();
 
         for (int i = 0; i < qtdFunc; i++) {
-            System.out.println(STR."Dados do \{i + 1}º funcionário:");
+            System.out.println("Dados do " + (i + 1) + "º funcionário:");
             System.out.print("ID: ");
             int id = scanner.nextInt();
 

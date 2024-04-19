@@ -1,6 +1,5 @@
 package EstruturaRepetitiva.Exercicios.While;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class SenhaCorreta {

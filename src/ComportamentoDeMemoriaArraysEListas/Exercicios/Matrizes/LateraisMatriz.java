@@ -17,7 +17,7 @@ public class LateraisMatriz {
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                System.out.print(STR."Insira o valor na posição [\{i}, \{j}]: ");
+                System.out.print("Insira o valor na posição [" + i + ", " + j + "]: ");
                 matriz[i][j] = scanner.nextInt();
             }
         }
@@ -28,18 +28,18 @@ public class LateraisMatriz {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 if (matriz[i][j] == x) {
-                    System.out.println(STR."Posição [\{i}, \{j}]");
+                    System.out.println("Posição " + i + ", " + j);
                     if (j > 0) {
-                        System.out.print(STR."Esquerda: \{matriz[i][j - 1]}");
+                        System.out.print("Esquerda: " + matriz[i][j - 1]);
                     }
                     if (i > 0) {
-                        System.out.println(STR."Acima: \{matriz[i - 1][j]}");
+                        System.out.println("Acima: " + matriz[i - 1][j]);
                     }
                     if (j < matriz[i].length - 1) {
-                        System.out.println(STR."Direita: \{matriz[i][j + 1]}");
+                        System.out.println("Direita: " + matriz[i][j + 1]);
                     }
                     if (i < matriz.length - 1) {
-                        System.out.println(STR."Abaixo: \{matriz[i + 1][j]}");
+                        System.out.println("Abaixo: " + matriz[i + 1][j]);
                     }
                 }
             }

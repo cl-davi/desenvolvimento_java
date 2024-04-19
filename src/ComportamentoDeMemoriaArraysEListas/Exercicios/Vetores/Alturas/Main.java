@@ -13,13 +13,13 @@ public class Main {
         Pessoa[] vetor = new Pessoa[scanner.nextInt()];
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.print(STR."\nInforme o nome da \{i + 1}º pessoa: ");
+            System.out.print("\nInforme o nome da " + (i + 1) + "º pessoa: ");
             String nome = scanner.next();
 
-            System.out.print(STR."Informe a idade da \{i + 1}º pessoa: ");
+            System.out.print("Informe a idade da " + (i + 1) + "º pessoa: ");
             int idade = scanner.nextInt();
 
-            System.out.print(STR."Informe a altura da \{i + 1}º pessoa: ");
+            System.out.print("Informe a altura da " + (i + 1) + "º pessoa: ");
             double altura = scanner.nextDouble();
 
             pessoa = new Pessoa(nome, idade, altura);
@@ -41,8 +41,8 @@ public class Main {
         }
         double percetualMenores = ((double) contador / vetor.length) * 100;
 
-        System.out.println(STR."Altura Média: \{media}");
-        System.out.println(STR."Pessoas com menos de 16 anos: \{percetualMenores}%");
+        System.out.println("Altura Média: " + media);
+        System.out.println("Pessoas com menos de 16 anos: " + percetualMenores + "%");
 
         scanner.close();
     }

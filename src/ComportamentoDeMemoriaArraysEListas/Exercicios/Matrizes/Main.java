@@ -19,7 +19,7 @@ public class Main {
 
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat.length; j++) {
-                System.out.print(STR."Insira o valor na posição [\{i}, \{j}]: ");
+                System.out.print("Insira o valor na posição [" + i + ", " + j + "]: ");
                 mat[i][j] = scanner.nextInt();
             }
         }
@@ -27,14 +27,14 @@ public class Main {
         System.out.println("\nToda a matriz");
         for (int[] ints : mat) {
             for (int j = 0; j < mat.length; j++) {
-                System.out.print(STR."[\{ints[j]}] ");
+                System.out.print("[" + ints[j] + "] ");
             }
             System.out.println();
         }
 
         System.out.println("\nDiagonal da Matriz");
         for (int i = 0; i < mat.length; i++) {
-            System.out.print(STR."\{mat[i][i]} ");
+            System.out.print(mat[i][i] + " ");
         }
 
         int contador = 0;
@@ -42,11 +42,11 @@ public class Main {
         for (int[] ints : mat) {
             for (int j = 0; j < mat.length; j++) {
                 if (ints[j] < 0) {
-                    System.out.print(STR."\{ints[j]} ");
+                    System.out.print(ints[j] + " ");
                     contador++;
                 }
             }
         }
-        System.out.println(STR."\nQuantidade de negativos da Matriz: \{contador}");
+        System.out.println("\nQuantidade de negativos da Matriz: " + contador);
     }
 }
